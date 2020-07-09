@@ -1,0 +1,30 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Installation:
+
+1. Google Chrome installieren
+2. Chrome-Version herausfinden (Chrome öffnen > Drei Punkte oben rechts > Hilfe > Über Google Chrome)
+3. Entsprechende Chromedriver-Version herunterladen (die hier enthaltene Version ist für Chrome-Version 83)
+	Download-Seite: https://chromedriver.chromium.org/downloads
+	3.1 Heruntergeladene zip-Datei entpacken, enthaltene Datei namens chromedriver.exe in diesen Ordner kopieren (vorhandene Datei ersetzen)
+5. Python mit der enthaltenen exe-Datei (oder einer neueren Version) installieren
+6. install_selenium.bat ausführen (installiert benötigtes Pathon-Package)
+	6.1 Es kann sein, dass Windows Defender das Ausführen verhindert. In diesem Fall einfach auf "Mehr Informationen" und "Trotzdem ausführen" klicken.
+7. Alle benötigten Sachen sind jetzt installiert. Um den Bot zu starten, huso.py ausführen (muss im gleichen Ordner wie chromedriver.exe liegen)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Benutzung:
+
+Zuerst öffnet sich ein kleines Fenster, bei dem Wort und Alter für die Abstimmung ausgewählt werden. Der Ok-Bztton startet das eigentliche Programm,
+der "Programm beenden"-Button... beendet das Programm (irgendwie selbsterklärend.) Wenn nichts ausgewählt oder das Fenster per X oben rechts geschlossen
+wird, dann nutzt der Bot das Wort "Zensurensohn" und gibt jedes Mal ein zufälliges Alter an (kann auch normal ausgewählt werden).
+Anschließend öffnet sich ein Chrome-Fenster, das den Hauptpart des Bots darstellt und die Seite für die Abstimmung aufruft.
+Jedes Mal, wenn die Seite komplett geladen ist, füllt das Programm die Auswahlfelder aus und schickt die Abstimmung ab.
+Danach wird die Seite neu geladen und der Bot beginnt von vorn.
+
+Durch Schließen des Chrome-Fensters wird das Programm beendet. Das Commandline-Fenster im Hintergrund muss dann auch noch geschlossen werden.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+Anmerkungen:
+ 
+- Unter Umständen meldet sich die Firewall beim ersten Start, einfach auf "Zugriff zulassen" klicken
+- Laut Langenscheidt darf jeder so oft abstimmen wie er möchte, daher sollte dieser Bot absolut legit sein
+- Die Effizienz des Bots (Abstimmungen pro Minute) hängt nur von der Internet-Geschwindigkeit ab, da immer abgestimmt wird, wenn die Seite fertig geladen ist.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
