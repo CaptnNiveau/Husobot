@@ -1,7 +1,7 @@
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 Installation:
 
-1. Google Chrome installieren
+1. Google Chrome installieren 
 2. Chrome-Version herausfinden (Chrome öffnen > Drei Punkte oben rechts > Hilfe > Über Google Chrome)
 3. Entsprechende Chromedriver-Version herunterladen (die hier enthaltene Version ist für Chrome-Version 83)
 	Download-Seite: https://chromedriver.chromium.org/downloads
